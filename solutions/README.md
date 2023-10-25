@@ -1,6 +1,6 @@
 # Solutions
 
-The `\solutions` folder provides the solutions for benchmark instances and real-world instances
+The `solutions` folder provides the solutions for benchmark instances and real-world instances
 
 In the solution file, the first line gives the objective value, the second line gives the visiting sequence, and the remaining lines decribe the positions. 
 

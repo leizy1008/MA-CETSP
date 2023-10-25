@@ -1,6 +1,6 @@
 # Datasets
 
-The `\datasets` folder is for the benchmark instances and real-world instances used in the paper.
+The `datasets` folder is for the benchmark instances and real-world instances used in the paper.
 
 The benchmark instances can be available at [link](https://drum.lib.umd.edu/handle/1903/9822).
 
