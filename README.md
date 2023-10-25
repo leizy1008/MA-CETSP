@@ -1,6 +1,6 @@
 # An Effective Memetic Algorithm for the Close-Enough Traveling Salesman Problem
 
-This repository is the implementation in C++ for the paper [An Effective Memetic Algorithm for the Close-Enough Traveling Salesman Problem](link) by Zhenyu Lei, Jin-Kao Hao.
+This repository is the implementation in C++ for the paper [An Effective Memetic Algorithm for the Close-Enough Traveling Salesman Problem](#) by Zhenyu Lei, Jin-Kao Hao.
 
 We propose an effective memetic algorithm to solve the Close-Enough Traveling Salesman Problem (CETSP) which is a variant of the well-known Traveling Salesman Problem (TSP). Experimental results on the well-known benchmark instances show that the algorithm is highly competitive with the state-of-the-art methods. We also demonstrate the usefulness of the algorithm on a real laser welding robot path planning problem.
 
@@ -10,6 +10,7 @@ In this repository, we have:
 
 - `cmake/` folder contains the cmake configuration for gurobi solver.
 - `datasets/` folder is for the benchmark instances and real-world instances used in the paper.
+- `solutions/` folder provides the solutions for benchmark instances and real-world instances
 - `include/` and `src/` folders contain the source code of the algorithm.
 - `CMakelists.txt` is the cmake configuration file.
 
@@ -19,7 +20,7 @@ In this repository, we have:
 
 We conducted experiments on the well-known benchmark instances proposed by Dr. Mennell. The instances are available at [link](https://drum.lib.umd.edu/handle/1903/9822). 
 
-And we also tested our algorithm on real-world instances provided by Prof. Béla Vizvári, one of authors of [Nedjatia et al.](https://d1wqtxts1xzle7.cloudfront.net/65000401/CRPASE_Transactions_of_Industrial_Engineering_Vol._06_04_288_293_December_2020-libre.pdf?1606017364=&response-content-disposition=inline%3B+filename%3DRobot_Path_Planning_by_Traveling_Salesma.pdf&Expires=1697549284&Signature=hBOKgxVRfdkVHbMLbBgrqNUSt2Q1roDGMVh2syU0kI1nLx1k2VScQw34ztRuKTWvxAXk3ka7JTHMLw66gb3zIrGk0biWChBfb0sbkE~aYEYWJJuaWaU6jYV14vM5YxUWpWQ~WOzfEoLJYHIcy6frObVjgurZkLc9LAiGRYWlCNa~UubvWY2R6YyCVH2uejTgIIJzRCV19nIRyR1gSBPDvYVGFb3D4PBPQuPYQIx1U4grOfJiDYaq~6Zge51WyLQbcW8r9V8Oqq81Htv-Nw~MAJLwhL5VvZxlJUup8tUmWetYNSKwh2bRFHdoTKIqSv9ZLbPwxbe00kenyr5drG-RXg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA). We provide the instances in the folder `datasets/`.
+And we also tested our algorithm on real-world instances provided by Prof. Béla Vizvári, one of authors of [Nedjatia et al.](https://www.jms.procedia.org/archive/CRPASE_169/CRPASE_procedia_2020_6_4_11.PDF). We provide the instances in the folder `datasets/`.
 
 ### Solver
 
