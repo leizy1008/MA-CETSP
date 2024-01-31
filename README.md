@@ -1,6 +1,6 @@
 # An Effective Memetic Algorithm for the Close-Enough Traveling Salesman Problem
 
-This repository is the implementation in C++ for the paper [An Effective Memetic Algorithm for the Close-Enough Traveling Salesman Problem](#) by Zhenyu Lei, Jin-Kao Hao.
+This repository is the implementation in C++ for the paper [An Effective Memetic Algorithm for the Close-Enough Traveling Salesman Problem](https://www.sciencedirect.com/science/article/pii/S1568494624000401) by Zhenyu Lei, Jin-Kao Hao.
 
 We propose an effective memetic algorithm to solve the Close-Enough Traveling Salesman Problem (CETSP) which is a variant of the well-known Traveling Salesman Problem (TSP). Experimental results on the well-known benchmark instances show that the algorithm is highly competitive with the state-of-the-art methods. We also demonstrate the usefulness of the algorithm on a real laser welding robot path planning problem.
 
