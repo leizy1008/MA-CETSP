@@ -56,5 +56,12 @@ In addition, you can run the code with your own parameters by the following comm
 If it is helpful for your research, please cite our paper:
 
 ```bibtex
-
+@article{lei2024effective,
+  title={An effective memetic algorithm for the close-enough traveling salesman problem},
+  author={Lei, Zhenyu and Hao, Jin-Kao},
+  journal={Applied Soft Computing},
+  pages={111266},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
